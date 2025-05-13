@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/img1pair1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="68dp"
+        android:tag="1"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img4pair3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:tag="4"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1pair1"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img5pair2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:tag="5"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img6pair1"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/img4pair3"
+        app:layout_constraintTop_toBottomOf="@+id/img2pair2"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img6pair1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:tag="6"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3pair3"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img7pair4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:tag="7"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img4pair3"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img10pair6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:tag="10"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img7pair4"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img11pair5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:tag="11"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toEndOf="@+id/img10pair6"
+        app:layout_constraintTop_toBottomOf="@+id/img8pair5"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img12pair4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        android:tag="12"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toEndOf="@+id/img10pair6"
+        app:layout_constraintTop_toBottomOf="@+id/img9pair6"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img8pair5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:tag="8"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toEndOf="@+id/img7pair4"
+        app:layout_constraintTop_toBottomOf="@+id/img5pair2"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img9pair6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:tag="9"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toEndOf="@+id/img8pair5"
+        app:layout_constraintTop_toBottomOf="@+id/img6pair1"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img2pair2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="68dp"
+        android:tag="2"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintStart_toEndOf="@+id/img1pair1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/personicon" />
+
+    <ImageButton
+        android:id="@+id/img3pair3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="68dp"
+        android:tag="3"
+        app:circularflow_radiusInDP="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toEndOf="@+id/img2pair2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/personicon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ashly and Friends"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/resetBtn"
+        android:layout_width="33dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FCF5FD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reset" />
+
+    <TextView
+        android:id="@+id/txtCongrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:text="Match all pairs."
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
